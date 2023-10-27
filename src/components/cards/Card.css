@@ -1,0 +1,62 @@
+.card {
+    /* gap: 5px; */
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    /* border: 1px dotted ; */
+    height: 430px;
+    /* width: 300px; */
+    padding: 15px;
+    /* transition: 0.3s; */
+    /* position: relative; */
+    border-radius: 15px;
+    /* margin-bottom: 10px; */
+}
+
+.card h5 {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.cardList {
+    padding: 0 10px;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.badgeList {
+    text-align: left;
+    margin-top: 2vw;
+}
+
+.badgeList div {
+    display: inline-block;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-right: 10px;
+    /* padding-left: 5px; */
+}
+
+.propType {
+    background-color: rgb(241, 112, 112); 
+}
+
+.loc {
+    background-color: rgb(112, 209, 209);
+}
+
+.ament_list {
+    margin-top: -10px;
+    text-align: left;
+    font-weight: normal;
+    font-size: medium;
+    opacity: 0.7;
+}
+
+.ament_list  div {
+    display: inline-block;
+    margin-right: 30px;
+}

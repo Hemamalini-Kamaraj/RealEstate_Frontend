@@ -1,0 +1,63 @@
+.profile {
+    /* font-weight: bolder; */
+    /* font-size: 22px; */
+    color: rgb(47, 69, 56);
+    margin: 10px 50px 0 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.profile h2 {
+    text-align: center;
+}
+
+.detailCards {
+    border: 2px solid hsl(0, 3%, 80%);
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.detailCards button {
+    float: right;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.personalDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* margin-bottom: 2rem; */
+}
+
+.labelStyle {
+    font-weight: 500;
+    line-height: 33px;
+    color: black;
+    text-align-last: left;
+    padding-left: 3px;
+}
+
+.formInputs {
+    padding: 12px 16px;
+    border: 2px solid hsl(0, 1%, 86%);
+    border-radius: 8px;
+}
+
+.uploadBut button {
+    background-color: rgb(14, 134, 102);
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin-top: 40px;
+}
+
+.editBut button {
+    background-color: rgb(14, 134, 102);
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    padding: 5px;
+}

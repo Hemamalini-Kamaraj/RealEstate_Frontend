@@ -1,0 +1,26 @@
+.featuredList {
+    font-weight: bolder;
+    font-size: 22px;
+    min-height: 100vh;
+    color: rgb(47, 69, 56);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    margin: 10px 50px 0 50px;
+    /* background-color: antiquewhite; */
+}
+
+.listItems {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 80px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 36px;
+    overflow-y: auto;
+    /* margin-top: 50px; */
+    /* padding: 20px 60px; */
+}
