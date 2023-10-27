@@ -4,7 +4,7 @@ import Footer from '../../components/footer/Footer'
 import TextField from '../../components/textField/TextField'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUpload } from '@fortawesome/free-solid-svg-icons'
-import './PostPropertyPage.css'
+import './postPropertyPage.css'
 
 function PostPropertyPage() {
 
