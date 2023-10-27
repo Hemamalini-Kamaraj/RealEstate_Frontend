@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "http://localhost:3001/";
+const url = "https://real-estate-x6an.onrender.com/";
 
 let baseUrl = axios.create({
   baseURL: url,
