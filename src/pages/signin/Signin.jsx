@@ -51,6 +51,11 @@ function Signin() {
                 </div>
             </div>
         </div>
+        <div className="card" style={{height:"100px",lineHeight:"0px",textAlign:"center"}}>
+            <p>Demo Credential</p>
+            <p>Email: test@gmail.com</p>
+            <p>Password: test</p>
+        </div>
         <ToastContainer
           position='top-center'
           autoClose={5000}

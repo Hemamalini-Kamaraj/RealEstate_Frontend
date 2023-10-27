@@ -36,7 +36,7 @@ function Header() {
         window.sessionStorage.clear();
         toast.info("Successfully Logged out")
         setTimeout(() => {
-                location.replace("http://localhost:5173/");
+                location.replace("https://benevolent-froyo-2aa393.netlify.app/");
             }, 1000);
     };
 
