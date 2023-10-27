@@ -70,9 +70,9 @@ function Header() {
                 <div className='nav-link' onClick={() => navigate("/properties")}>
                     Properties
                 </div>
-                <div className='nav-link' onClick={handlePostProperty}>
+                {/* <div className='nav-link' onClick={handlePostProperty}>
                     Post Property
-                </div>
+                </div> */}
             </ul>
         </div>
         <div className='dropdown'>
